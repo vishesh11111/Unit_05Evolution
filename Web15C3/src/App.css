@@ -1,0 +1,61 @@
+.navbar{
+  /* margin: 10px; */
+  text-decoration: none;
+  font-weight: bold;
+border: 1px solid teal;
+padding: 4px;
+  
+}
+.nav-home{
+margin: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+.nav-list{
+margin: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+.nav-admin{
+margin: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+.nav-logout{
+margin: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+.nav-login{
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.list_container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.list_container > img{
+  width: 100px;
+  height: 80px;
+}
+.employee_image{
+  width: 200px;
+  height: 160px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.employee_name{
+  font-weight: bold;
+  /* margin: 5px; */
+  text-align: center;
+}
+.employee_title{
+  text-align: center;
+}
+span{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  
+}
